@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: vprodb
-          image: j4ro123/vprofiledb
+          image: j4ro123/vprofiledb:V1
           args:
             - "ignore-db-dir=lost+found"
           volumeMounts:
